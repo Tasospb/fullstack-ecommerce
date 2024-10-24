@@ -2,3 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body{font-family: "Lato", sans-serif;}
+
+.bg-purple{background: #8b3797; font-size: 14px;}
+
+.headerWrapper .top-srip{padding: 8px 0px;}
+.headerWrapper .top-srip p{color: #fff; font-size: 12px; font-weight: 700;}
+
+.headerWrapper .header{width: 100%; height:auto; padding: 10px 0px; padding-right: 700px;}
+.logoWrapper img{ width: 100%;;}
+
+.headerWrapper .header .part2 .countryDrop{width: 150px; height: 60px; min-width: 150px;color: #000 !important; border: 1px solid rgba(0,0,0,0.2) !important;
+   border-radius: 7px !important; padding: 10px 10px !important;}
+.headerWrapper .header .part2 .countryDrop{text-align: left; justify-content: flex-start !important;}
+.headerWrapper .header .part2 .countryDrop .label{font-size: 12px !important; text-transform: capitalize !important; color: rgba(0,0,0,0.5) !important; line-height: 16px;}
+.headerWrapper .header .part2 .countryDrop .name{font-size: 14px !important; text-transform: capitalize !important; color: rgba(0,0,0,0.4) !important; font-weight: 700; line-height: 16px;}
+
+.headerWrapper .header .part2 .countryDrop span.m1-auto svg{opacity: 0.7;}
+
+header .headerSearch{width: 60%; height: 60%; background: #f3f4f7; padding: 10px; position: relative;}
+header .headerSearch input{background: transparent !important; outline:none !important; font-size: 14px; color: rgba(0,0,0,0.8); width: 100%; height: 40px; border: 0px !important;
+padding:0px 20px !important}
+
+header .headerSearch button{position: absolute; top: 10px; right: 15px; z-index: 100;}
