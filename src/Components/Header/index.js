@@ -4,6 +4,9 @@ import Button from '@mui/material/Button';
 import { FaAngleDown } from 'react-icons/fa';
 import CountryDropDown from '../CountryDropDown';
 import { IoSearch } from "react-icons/io5";
+import { FiUser } from "react-icons/fi";
+import { IoBagOutline } from "react-icons/io5";
+
 
 
 const Header = ()=>{
@@ -30,10 +33,22 @@ const Header = ()=>{
 
                                 {/* Header Search Start Here*/}
                                     <div className='headerSearch ml-3 mr-3'>
-                                        <input type='text'/>
+                                        <input type='text' placeholder='Search for products...'/>
                                         <Button><IoSearch/></Button>
                                     </div>
                                 {/* Header Search Ends Here*/}
+
+
+                                <div className= 'part3 d-flex align-items-center ml-auto'>
+                                    <Button className='circle mr-3'><FiUser/></Button>
+                                    <div className='ml-auto cartTab d-flex align-items-center'>
+                                        <span className='price'>£3.29</span>
+                                        <div className='position-relative'>
+                                            <Button className='circle ml-2'><IoBagOutline/></Button>
+                                            <span className='count d-flex align-items-center justify-content-center'>1</span>
+                                        </div>
+                                    </div>
+                                </div>
 
 
                             </div>
